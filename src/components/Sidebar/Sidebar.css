@@ -1,0 +1,11 @@
+.sidebar {
+  /* flex goes to 0 to 1  , 1  = 100% */
+  flex: 0.2; /* 0.2 = 20% of screen*/
+}
+.sidebar > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

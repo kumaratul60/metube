@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  /* z-index => how far front should it be show.
+   if we set as z-index :100 or 999 or infinity, that means there's nothing to go underneath that header */
+  z-index: 999;
+  background-color: white;
+}
+
+.header__img {
+  height: 25px;
+  /* width: 200px; */
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid black;
+}
+
+/* You can change the input caret color using css.
+
+The caret is typically a thin vertical line that  flashes to help tthe text area more noticeable. 
+
+*/
+.header__center > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  caret-color: red;
+}
+.header__inputButton {
+  width: 50px !important;
+  background-color: #fafafa;
+  border-left: 1px solid lightgray;
+  color: gray;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__icons {
+  margin: 8px;
+}
